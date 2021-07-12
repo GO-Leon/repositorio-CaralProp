@@ -552,14 +552,12 @@ button a:hover {
   color: gray;
 }
 
-.carreteVentas img {
+.carreteVentas {
   -webkit-transition: 2s;
   transition: 2s;
 }
 
-.carreteVentas:hover img {
-  height: 50%;
-  width: 30%;
+.carreteVentas:hover {
   border-radius: 10%;
 }
 
