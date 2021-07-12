@@ -1,0 +1,202 @@
+/*Estilos Modificacion Bootstrap*/
+.container-fluid {
+  background-color: gray;
+}
+
+main {
+  background-color: grey;
+  margin: 0;
+}
+.contenedorMain__div {
+  select {
+    margin-top: 5%;
+  }
+}
+
+h1 {
+  color: brown;
+}
+
+.col-md-6 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  button {
+    background-color: brown;
+    &:hover {
+      background-color: rgb(94, 23, 23);
+    }
+  }
+}
+
+.btn-secondary {
+  background-color: brown;
+  border-color: whitesmoke;
+  &:hover {
+    background-color: whitesmoke;
+    color: brown;
+  }
+  &:focus {
+    background-color: whitesmoke;
+    color: brown;
+    border-color: brown;
+  }
+  a {
+    &:hover {
+      color: brown;
+      text-decoration-line: underline;
+    }
+  }
+}
+
+.car1 {
+  background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.car2 {
+  background-image: url("https://images.unsplash.com/photo-1617228065596-389e80530ad5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=759&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.car3 {
+  background-image: url("https://images.unsplash.com/photo-1617228069096-4638a7ffc906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.btn-light {
+  &:hover {
+    background: gray;
+  }
+}
+
+.carousel-caption {
+  a {
+    &:hover {
+      color: whitesmoke;
+    }
+  }
+}
+
+.carouselAncho {
+  width: 70vw;
+  border-radius: 1rem;
+}
+
+.carouselIndicador {
+  display: flex;
+  flex-direction: row;
+}
+
+.carAlq1 {
+  background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.carAlq2 {
+  background-image: url("https://images.unsplash.com/photo-1617228065596-389e80530ad5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=759&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.carAlq3 {
+  background-image: url("https://images.unsplash.com/photo-1617228069096-4638a7ffc906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+}
+
+.carNews1 {
+  background-image: url("https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+  h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.carNews2 {
+  background-image: url("https://images.unsplash.com/photo-1612550761236-e813928f7271?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+  h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.carNews3 {
+  background-image: url("https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  min-height: 60vh;
+  background-position: center;
+  background-size: 70vw 60vh;
+  h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.contenedorMain__div {
+  img {
+    height: 40vh;
+  }
+  h1 {
+    margin-bottom: 2%;
+  }
+  button {
+    margin-top: 2%;
+  }
+  .contenedorMain--buttonMargin {
+    margin-top: 0%;
+  }
+}
+
+.card {
+  img {
+    padding-top: 2vh;
+  }
+}
+
+.contenedorEmp {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  .contenedorEmp__cards {
+    background-color: rgb(163, 162, 162);
+    color: whitesmoke;
+    margin-bottom: 4%;
+    width: 20rem;
+    .card-img-top {
+      height: 60vh;
+      &:hover {
+        background: linear-gradient(gray, rgb(172, 170, 170));
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.breadcrumb-item.active {
+  color: brown;
+}
+.breadcrumb-item {
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+}
+
+.breadcrumb-item .breadcrumb-item::before {
+  color: whitesmoke;
+}

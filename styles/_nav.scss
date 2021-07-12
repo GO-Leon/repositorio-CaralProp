@@ -1,0 +1,66 @@
+/*Estilo Nav*/
+$hover-nav: #971a1c;
+nav {
+  ul {
+    height: 100%;
+    li {
+      padding: 0 1rem;
+      height: 100%;
+      &:hover {
+        background-color: $hover-nav;
+        height: 100%;
+        border-radius: 2rem;
+      }
+    }
+  }
+}
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.navbar-toggler {
+  margin-bottom: 2%;
+}
+
+.nav__logo {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.nav__background {
+  background-color: #252a2b;
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link.active {
+      color: whitesmoke;
+      &:hover {
+        text-decoration-line: underline;
+        text-shadow: 2px 2px 2px rgb(54, 13, 13);
+      }
+    }
+  }
+}
+
+.navbar-light {
+  .navbar-toggler {
+    color: whitesmoke;
+  }
+}
+
+.navbar-light {
+  .navbar-toggler-icon {
+    background-image: url(/Media/menu.png);
+  }
+}
+
+.subNav {
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+  height: 4vh;
+  .breadcrumb {
+    margin-left: 2.5vw;
+  }
+}

@@ -1,0 +1,144 @@
+/*Estilos Ventas*/
+.carreteVentas {
+  margin-top: 10px;
+}
+.carreteVentasCab {
+  margin-top: 10px;
+}
+
+.contenedorMain__div {
+  section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+}
+
+button {
+  background-color: brown;
+  padding: 1%;
+  margin-top: 2%;
+  font-size: 140%;
+  border-radius: 10%;
+  transition: 1s;
+  color: whitesmoke;
+}
+
+button {
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 1s;
+    &:hover {
+      text-decoration-line: underline;
+      color: gray;
+    }
+  }
+}
+
+.carreteVentas {
+  img {
+    transition: 2s;
+  }
+}
+.carreteVentas:hover {
+  img {
+    height: 50%;
+    width: 30%;
+    border-radius: 10%;
+  }
+}
+
+/*Estilos Ventas Individuales*/
+.contenedorVentasInd {
+  background-image: url(../BuildingBackground4.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  .contenedorVentasInd__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border: 4px double whitesmoke;
+    border-radius: 25px;
+    padding: 5vh 5vh;
+    margin: 5vh 5vh;
+    .VentasIndIntro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.bullet {
+  margin-top: 4vh;
+}
+
+.divisor {
+  border-top: solid 2px gray;
+  width: 75vw;
+  margin: 4vh;
+}
+
+.multimedia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "video1 img1" "video2 img1" "img2 img3";
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.multimedia {
+  img {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 2rem;
+  }
+}
+
+.multimedia {
+  video {
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 2rem;
+  }
+}
+
+.video1 {
+  grid-area: video1;
+}
+.video2 {
+  grid-area: video2;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+
+.especif {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.especif {
+  h2 {
+    display: flex;
+    align-items: flex-start;
+  }
+}

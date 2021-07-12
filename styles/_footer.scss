@@ -1,0 +1,72 @@
+/*Estilo Footer*/
+.footer {
+  display: flex;
+  background: linear-gradient(rgb(173, 80, 80), brown);
+}
+.footer {
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 0.5%;
+    color: whitesmoke;
+  }
+}
+
+.footerPhone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .footerPhone__img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .footerPhone__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+    h3 {
+      font-family: "KoHo", sans-serif;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.footerLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .footerLocation__img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .footerLocation__text {
+    margin-top: 8%;
+    font-family: "KoHo", sans-serif;
+    font-size: 1.4rem;
+  }
+}
+
+.footerClock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .footerClock__img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .footerClock__text {
+    margin-top: 2%;
+    font-family: "KoHo", sans-serif;
+    width: 70%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
