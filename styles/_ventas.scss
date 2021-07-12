@@ -37,16 +37,10 @@ button {
 }
 
 .carreteVentas {
-  img {
     transition: 2s;
-  }
 }
 .carreteVentas:hover {
-  img {
-    height: 50%;
-    width: 30%;
     border-radius: 10%;
-  }
 }
 
 /*Estilos Ventas Individuales*/
