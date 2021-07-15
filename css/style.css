@@ -82,6 +82,12 @@ h1 {
   background: gray;
 }
 
+.carousel-caption h2 {
+  height: 10%;
+}
+.carousel-caption p {
+  font-size: 70%;
+}
 .carousel-caption a:hover {
   color: whitesmoke;
 }
@@ -786,6 +792,14 @@ form {
   }
   .contenedorMain .contenedorMain__div .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--row .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--col .contenedorMain__div--col form {
     max-width: 100%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1rem;
+  }
+  .carousel-caption .btn {
+    font-size: 0.6rem;
+    padding: 0.1rem 0.3rem;
   }
 }
 
