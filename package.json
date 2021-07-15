@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GO-Leon/repositorio-CaralProp/issues"
   },
-  "homepage": "https://github.com/GO-Leon/repositorio-CaralProp#readme"
+  "homepage": "https://github.com/GO-Leon/repositorio-CaralProp#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
 }
