@@ -7,7 +7,7 @@ form {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  input {
+  .datosContacto {
     background: transparent;
     border-top: none;
     border-left: none;
@@ -19,6 +19,12 @@ form {
   }
   section {
     margin-top: 2%;
+    textarea {
+      border-radius: 1rem;
+    }
+    select {
+      border-radius: 1rem;
+    }
     .checkboxContacto {
       margin-top: 2%;
     }

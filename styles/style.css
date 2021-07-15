@@ -45,10 +45,11 @@ h1 {
 .btn-secondary {
   background-color: brown;
   border-color: whitesmoke;
+  margin-top: 1%;
 }
 
 .btn-secondary:hover {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   color: brown;
 }
 
@@ -58,31 +59,26 @@ h1 {
   border-color: brown;
 }
 
-.btn-secondary a:hover {
-  color: brown;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
 .car1 {
   background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-  min-height: 60vh;
+  height: 60vh;
+  min-height: 300px;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .car2 {
   background-image: url("https://images.unsplash.com/photo-1617228065596-389e80530ad5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=759&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .car3 {
   background-image: url("https://images.unsplash.com/photo-1617228069096-4638a7ffc906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .btn-light:hover {
@@ -94,7 +90,7 @@ h1 {
 }
 
 .carouselAncho {
-  width: 70vw;
+  width: 90vw;
   border-radius: 1rem;
 }
 
@@ -112,28 +108,28 @@ h1 {
   background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carAlq2 {
   background-image: url("https://images.unsplash.com/photo-1617228065596-389e80530ad5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=759&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carAlq3 {
   background-image: url("https://images.unsplash.com/photo-1617228069096-4638a7ffc906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carNews1 {
   background-image: url("https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carNews1 h2 {
@@ -144,7 +140,7 @@ h1 {
   background-image: url("https://images.unsplash.com/photo-1612550761236-e813928f7271?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carNews2 h2 {
@@ -155,7 +151,7 @@ h1 {
   background-image: url("https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   min-height: 60vh;
   background-position: center;
-  background-size: 70vw 60vh;
+  background-size: 100% 100%;
 }
 
 .carNews3 h2 {
@@ -198,7 +194,6 @@ h1 {
 .contenedorEmp .contenedorEmp__cards {
   background-color: #a3a2a2;
   color: whitesmoke;
-  margin-bottom: 4%;
   width: 20rem;
 }
 
@@ -224,6 +219,10 @@ h1 {
 
 .breadcrumb-item .breadcrumb-item::before {
   color: whitesmoke;
+}
+
+.d-none {
+  display: block;
 }
 
 /*Estilo Nav*/
@@ -291,7 +290,7 @@ nav ul li:hover {
 /*Estilos Cuerpo*/
 .contenedorMain, .contenedorMain .contenedorMain__div {
   color: black;
-  background-image: url(../BuildingBackground4.jpg);
+  background-image: url(../Media/BuildingBackground4.jpg);
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -316,9 +315,13 @@ nav ul li:hover {
   background-color: whitesmoke;
   border: 4px double whitesmoke;
   border-radius: 25px;
-  padding: 2vh 2vh;
+  padding: 2vh 2vw;
   margin: 2.5vh 2.5vh;
   max-width: 100%;
+}
+
+.contenedorMain .contenedorMain__div h1, .contenedorMain .contenedorMain__div--row h1, .contenedorMain .contenedorMain__div--col h1 {
+  margin-bottom: 1%;
 }
 
 .contenedorMain .contenedorMain__div--row {
@@ -563,7 +566,7 @@ button a:hover {
 
 /*Estilos Ventas Individuales*/
 .contenedorVentasInd {
-  background-image: url(../BuildingBackground4.jpg);
+  background-image: url(../Media/BuildingBackground4.jpg);
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -726,6 +729,14 @@ form {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.contenedorMain__div--col input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: brown;
 }
 
 .contenedorMain__div--col select {
@@ -945,7 +956,7 @@ form {
 /*Estilos Alquileres*/
 .contenedorAlq, .contenedorAlq .contenedorAlq__div {
   color: black;
-  background-image: url(../BuildingBackground4.jpg);
+  background-image: url(../Media/BuildingBackground4.jpg);
   background-position: center;
   background-size: cover;
   display: -webkit-box;

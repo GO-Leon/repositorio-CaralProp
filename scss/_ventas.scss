@@ -1,46 +1,22 @@
 /*Estilos Ventas*/
-.carreteVentas {
-  margin-top: 10px;
-}
-.carreteVentasCab {
-  margin-top: 10px;
-}
-
 .contenedorMain__div {
   section {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
   }
-}
-
-button {
-  background-color: brown;
-  padding: 1%;
-  margin-top: 2%;
-  font-size: 140%;
-  border-radius: 10%;
-  transition: 1s;
-  color: whitesmoke;
-}
-
-button {
-  a {
-    text-decoration: none;
-    color: whitesmoke;
-    transition: 1s;
-    &:hover {
-      text-decoration-line: underline;
-      color: gray;
+  .carreteVentas__section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    .carreteVentas {
+      margin: 1% 2.5% 1% 2.5%;
+      transition: 2s;
+      &:hover {
+        border-radius: 10%;
+      }
     }
   }
-}
-
-.carreteVentas {
-  transition: 2s;
-}
-.carreteVentas:hover {
-  border-radius: 10%;
 }
 
 /*Estilos Ventas Individuales*/

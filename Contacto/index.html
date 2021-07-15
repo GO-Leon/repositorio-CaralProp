@@ -31,8 +31,8 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../styles/style.css" />
-    <title>CARAL Propiedades - Alquileres</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>CARAL Propiedades - Contacto</title>
   </head>
   <body>
     <header>
@@ -80,7 +80,7 @@
                   >Emprendimientos</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item activeNav">
                 <a class="nav-link active" href="../Contacto/index.html"
                   >Contacto</a
                 >
@@ -120,28 +120,28 @@
         <h2 class="contenedor__title">Contacto</h2>
         <form action="" method="POST">
           <section>
-            <label for="Nombre">Nombre:</label>
             <input
+              class="datosContacto"
               type="text"
               id="Nombre"
               name="Nombre"
               required
-              placeholder="ej:Gonzalo"
+              placeholder="Nombre"
             />
           </section>
           <section>
-            <label for="Apellido">Apellido:</label>
             <input
+              class="datosContacto"
               type="text"
               id="Apellido"
               name="Apellido"
               required
-              placeholder="ej:Leon"
+              placeholder="Apellido"
             />
           </section>
           <section>
-            <label for="Email">Email:</label>
             <input
+              class="datosContacto"
               type="text"
               id="Email"
               name="Email"
@@ -177,10 +177,14 @@
             </textarea>
           </section>
           <section>
-            <input type="submit" value="Enviar Formulario" />
+            <input
+              class="btn btn-secondary"
+              type="submit"
+              value="Enviar Formulario"
+            />
           </section>
           <section>
-            <input type="reset" value="Limpiar" />
+            <input class="btn btn-secondary" type="reset" value="Limpiar" />
           </section>
         </form>
       </section>

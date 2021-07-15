@@ -163,7 +163,7 @@ h1 {
 }
 
 .contenedorEmp {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -172,7 +172,7 @@ h1 {
     color: whitesmoke;
     width: 20rem;
     .card-img-top {
-      height: 60vh;
+      height: 36vh;
       &:hover {
         background: linear-gradient(gray, rgb(172, 170, 170));
         opacity: 0.8;
@@ -194,4 +194,8 @@ h1 {
 
 .breadcrumb-item .breadcrumb-item::before {
   color: whitesmoke;
+}
+
+.d-none {
+  display: block;
 }
