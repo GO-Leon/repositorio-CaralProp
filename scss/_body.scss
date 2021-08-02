@@ -21,6 +21,7 @@
     max-width: 100%;
     h1 {
       margin-bottom: 1%;
+      max-width: 100%;
     }
     .div__Car {
       display: flex;
@@ -40,6 +41,7 @@
       flex-direction: column;
       width: 30%;
       padding-left: 1rem;
+      max-width: 100%;
       .form-select-lg {
         font-size: 1rem;
       }
