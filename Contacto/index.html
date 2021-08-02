@@ -117,75 +117,78 @@
       </section>
       <section class="contenedorMain__div--col">
         <h2 class="contenedor__title">Contacto</h2>
-        <form action="" method="POST">
-          <section>
-            <input
-              class="datosContacto"
-              type="text"
-              id="Nombre"
-              name="Nombre"
-              required
-              placeholder="Nombre"
-            />
-          </section>
-          <section>
-            <input
-              class="datosContacto"
-              type="text"
-              id="Apellido"
-              name="Apellido"
-              required
-              placeholder="Apellido"
-            />
-          </section>
-          <section>
-            <input
-              class="datosContacto"
-              type="text"
-              id="Email"
-              name="Email"
-              required
-              placeholder="email de contacto"
-            />
-          </section>
-          <section>
-            <label for="Tipo de consulta">Tipo de consulta</label>
-            <select name="Tipo de consulta">
-              <option value="Alquiler">Alquiler</option>
-              <option value="Venta">Venta</option>
-              <option value="Tasacion">Tasaci&oacute;n</option>
-            </select>
-          </section>
-          <section>
-            <label for="soy cliente">Soy cliente de CARAL</label>
-            <input
-              class="checkboxContacto"
-              type="checkbox"
-              id="cliente"
-              value="1"
-            />
-          </section>
-          <section>
-            <textarea
-              name="consulta"
-              id="consulta"
-              cols="30"
-              rows="10"
-              placeholder="Escriba aqui..."
-            >
-            </textarea>
-          </section>
-          <section>
-            <input
-              class="btn btn-secondary"
-              type="submit"
-              value="Enviar Formulario"
-            />
-          </section>
-          <section>
-            <input class="btn btn-secondary" type="reset" value="Limpiar" />
-          </section>
-        </form>
+        <div class="contacto--row">
+          <form action="" method="POST">
+            <section>
+              <input
+                class="datosContacto"
+                type="text"
+                id="Nombre"
+                name="Nombre"
+                required
+                placeholder="Nombre"
+              />
+            </section>
+            <section>
+              <input
+                class="datosContacto"
+                type="text"
+                id="Apellido"
+                name="Apellido"
+                required
+                placeholder="Apellido"
+              />
+            </section>
+            <section>
+              <input
+                class="datosContacto"
+                type="text"
+                id="Email"
+                name="Email"
+                required
+                placeholder="email de contacto"
+              />
+            </section>
+            <section>
+              <label for="Tipo de consulta">Tipo de consulta</label>
+              <select name="Tipo de consulta">
+                <option value="Alquiler">Alquiler</option>
+                <option value="Venta">Venta</option>
+                <option value="Tasacion">Tasaci&oacute;n</option>
+              </select>
+            </section>
+            <section>
+              <label for="soy cliente">Soy cliente de CARAL</label>
+              <input
+                class="checkboxContacto"
+                type="checkbox"
+                id="cliente"
+                value="1"
+              />
+            </section>
+            <section>
+              <textarea
+                name="consulta"
+                id="consulta"
+                cols="30"
+                rows="10"
+                placeholder="Escriba aqui..."
+              >
+              </textarea>
+            </section>
+            <section>
+              <input
+                class="btn btn-secondary"
+                type="submit"
+                value="Enviar Formulario"
+              />
+            </section>
+            <section>
+              <input class="btn btn-secondary" type="reset" value="Limpiar" />
+            </section>
+          </form>
+          <img src="../Media/contact.png" alt="ilustracion contacto" />
+        </div>
       </section>
     </main>
     <footer class="footer">

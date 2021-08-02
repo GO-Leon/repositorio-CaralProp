@@ -10769,7 +10769,7 @@ main {
   margin: 0;
 }
 
-.contenedorMain__div select, .contenedorMain__div--col select, .contenedorMain .contenedorMain__div--row select, .contenedorMain__404--cover .contenedorMain__div--row select {
+.contenedorMain__div select, .contenedorMain__div--col select, .contenedorMain__404--cover .contenedorMain__404 select, .contenedorMain .contenedorMain__div--row select, .contenedorMain__404--cover .contenedorMain__div--row select {
   margin-top: 5%;
 }
 
@@ -10920,16 +10920,16 @@ h1, .h1 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.contenedorMain__div img, .contenedorMain__div--col img, .contenedorMain .contenedorMain__div--row img, .contenedorMain__404--cover .contenedorMain__div--row img {
+.contenedorMain__div img, .contenedorMain__div--col img, .contenedorMain__404--cover .contenedorMain__404 img, .contenedorMain .contenedorMain__div--row img, .contenedorMain__404--cover .contenedorMain__div--row img {
   height: 40vh;
 }
-.contenedorMain__div h1, .contenedorMain__div--col h1, .contenedorMain .contenedorMain__div--row h1, .contenedorMain__404--cover .contenedorMain__div--row h1, .contenedorMain__div .h1, .contenedorMain__div--col .h1, .contenedorMain .contenedorMain__div--row .h1, .contenedorMain__404--cover .contenedorMain__div--row .h1 {
+.contenedorMain__div h1, .contenedorMain__div--col h1, .contenedorMain__404--cover .contenedorMain__404 h1, .contenedorMain .contenedorMain__div--row h1, .contenedorMain__404--cover .contenedorMain__div--row h1, .contenedorMain__div .h1, .contenedorMain__div--col .h1, .contenedorMain__404--cover .contenedorMain__404 .h1, .contenedorMain .contenedorMain__div--row .h1, .contenedorMain__404--cover .contenedorMain__div--row .h1 {
   margin-bottom: 2%;
 }
-.contenedorMain__div button, .contenedorMain__div--col button, .contenedorMain .contenedorMain__div--row button, .contenedorMain__404--cover .contenedorMain__div--row button {
+.contenedorMain__div button, .contenedorMain__div--col button, .contenedorMain__404--cover .contenedorMain__404 button, .contenedorMain .contenedorMain__div--row button, .contenedorMain__404--cover .contenedorMain__div--row button {
   margin-top: 2%;
 }
-.contenedorMain__div .contenedorMain--buttonMargin, .contenedorMain__div--col .contenedorMain--buttonMargin, .contenedorMain .contenedorMain__div--row .contenedorMain--buttonMargin, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain--buttonMargin {
+.contenedorMain__div .contenedorMain--buttonMargin, .contenedorMain__div--col .contenedorMain--buttonMargin, .contenedorMain__404--cover .contenedorMain__404 .contenedorMain--buttonMargin, .contenedorMain .contenedorMain__div--row .contenedorMain--buttonMargin, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain--buttonMargin {
   margin-top: 0%;
 }
 
@@ -11045,7 +11045,7 @@ nav ul li:hover {
 }
 
 /*Estilos Cuerpo*/
-.contenedorMain, .contenedorMain__404--cover, .contenedorMain__404--cover .contenedorMain__div, .contenedorMain__404--cover .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div--row, .contenedorMain .contenedorMain__div, .contenedorMain .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row {
+.contenedorMain, .contenedorMain__404--cover, .contenedorMain__404--cover .contenedorMain__div, .contenedorMain__404--cover .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__404, .contenedorMain__404--cover .contenedorMain__div--row, .contenedorMain .contenedorMain__div, .contenedorMain .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row {
   color: black;
   background-image: url(../Media/BuildingBackground4.jpg);
   background-position: center;
@@ -11054,7 +11054,7 @@ nav ul li:hover {
   flex-direction: column;
   justify-content: space-around;
 }
-.contenedorMain .contenedorMain__div, .contenedorMain .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div, .contenedorMain__404--cover .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__div--row {
+.contenedorMain .contenedorMain__div, .contenedorMain .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div, .contenedorMain__404--cover .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__404, .contenedorMain .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__div--row {
   background-image: none;
   justify-content: space-between;
   align-items: center;
@@ -11065,10 +11065,10 @@ nav ul li:hover {
   margin: 2.5vh 2.5vh;
   max-width: 100%;
 }
-.contenedorMain .contenedorMain__div h1, .contenedorMain .contenedorMain__div--col h1, .contenedorMain__404--cover .contenedorMain__div h1, .contenedorMain__404--cover .contenedorMain__div--col h1, .contenedorMain .contenedorMain__div--row h1, .contenedorMain__404--cover .contenedorMain__div--row h1, .contenedorMain .contenedorMain__div .h1, .contenedorMain .contenedorMain__div--col .h1, .contenedorMain__404--cover .contenedorMain__div .h1, .contenedorMain__404--cover .contenedorMain__div--col .h1, .contenedorMain .contenedorMain__div--row .h1, .contenedorMain__404--cover .contenedorMain__div--row .h1 {
+.contenedorMain .contenedorMain__div h1, .contenedorMain .contenedorMain__div--col h1, .contenedorMain__404--cover .contenedorMain__div h1, .contenedorMain__404--cover .contenedorMain__div--col h1, .contenedorMain__404--cover .contenedorMain__404 h1, .contenedorMain .contenedorMain__div--row h1, .contenedorMain__404--cover .contenedorMain__div--row h1, .contenedorMain .contenedorMain__div .h1, .contenedorMain .contenedorMain__div--col .h1, .contenedorMain__404--cover .contenedorMain__div .h1, .contenedorMain__404--cover .contenedorMain__div--col .h1, .contenedorMain__404--cover .contenedorMain__404 .h1, .contenedorMain .contenedorMain__div--row .h1, .contenedorMain__404--cover .contenedorMain__div--row .h1 {
   margin-bottom: 1%;
 }
-.contenedorMain .contenedorMain__div .div__Car, .contenedorMain .contenedorMain__div--col .div__Car, .contenedorMain__404--cover .contenedorMain__div .div__Car, .contenedorMain__404--cover .contenedorMain__div--col .div__Car, .contenedorMain .contenedorMain__div--row .div__Car, .contenedorMain__404--cover .contenedorMain__div--row .div__Car {
+.contenedorMain .contenedorMain__div .div__Car, .contenedorMain .contenedorMain__div--col .div__Car, .contenedorMain__404--cover .contenedorMain__div .div__Car, .contenedorMain__404--cover .contenedorMain__div--col .div__Car, .contenedorMain__404--cover .contenedorMain__404 .div__Car, .contenedorMain .contenedorMain__div--row .div__Car, .contenedorMain__404--cover .contenedorMain__div--row .div__Car {
   display: flex;
   width: 100%;
 }
@@ -11120,6 +11120,7 @@ p {
   padding: 1vh 2vw;
   border-radius: 2rem;
   color: whitesmoke;
+  text-align: center;
 }
 
 .contenedor__title--padding {
@@ -11128,6 +11129,16 @@ p {
 
 .contenedorMain__404--cover {
   height: 87vh;
+}
+.contenedorMain__404--cover .contenedorMain__404 {
+  text-align: center;
+  max-width: 100%;
+}
+.contenedorMain__404--cover .contenedorMain__404 h1, .contenedorMain__404--cover .contenedorMain__404 .h1 {
+  max-width: 100%;
+}
+.contenedorMain__404--cover .contenedorMain__404 a {
+  max-width: 100%;
 }
 
 /*Estilo Footer*/
@@ -11203,12 +11214,12 @@ p {
 }
 
 /*Estilos Ventas*/
-.contenedorMain__div section, .contenedorMain__div--col section, .contenedorMain .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__div--row section {
+.contenedorMain__div section, .contenedorMain__div--col section, .contenedorMain .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__404 section {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
 }
-.contenedorMain__div .precio, .contenedorMain__div--col .precio, .contenedorMain .contenedorMain__div--row .precio, .contenedorMain__404--cover .contenedorMain__div--row .precio {
+.contenedorMain__div .precio, .contenedorMain__div--col .precio, .contenedorMain .contenedorMain__div--row .precio, .contenedorMain__404--cover .contenedorMain__div--row .precio, .contenedorMain__404--cover .contenedorMain__404 .precio {
   border: 3px solid brown;
   border-radius: 1rem;
   background-color: brown;
@@ -11217,16 +11228,16 @@ p {
   font-size: 1rem;
   padding: 0.25rem;
 }
-.contenedorMain__div .carreteVentas__section, .contenedorMain__div--col .carreteVentas__section, .contenedorMain .contenedorMain__div--row .carreteVentas__section, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section {
+.contenedorMain__div .carreteVentas__section, .contenedorMain__div--col .carreteVentas__section, .contenedorMain .contenedorMain__div--row .carreteVentas__section, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section, .contenedorMain__404--cover .contenedorMain__404 .carreteVentas__section {
   display: flex;
   justify-content: space-around;
   flex-flow: row;
 }
-.contenedorMain__div .carreteVentas__section .carreteVentas, .contenedorMain__div--col .carreteVentas__section .carreteVentas, .contenedorMain .contenedorMain__div--row .carreteVentas__section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section .carreteVentas {
+.contenedorMain__div .carreteVentas__section .carreteVentas, .contenedorMain__div--col .carreteVentas__section .carreteVentas, .contenedorMain .contenedorMain__div--row .carreteVentas__section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section .carreteVentas, .contenedorMain__404--cover .contenedorMain__404 .carreteVentas__section .carreteVentas {
   margin: 1% 2.5% 1% 2.5%;
   transition: 2s;
 }
-.contenedorMain__div .carreteVentas__section .carreteVentas:hover, .contenedorMain__div--col .carreteVentas__section .carreteVentas:hover, .contenedorMain .contenedorMain__div--row .carreteVentas__section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section .carreteVentas:hover {
+.contenedorMain__div .carreteVentas__section .carreteVentas:hover, .contenedorMain__div--col .carreteVentas__section .carreteVentas:hover, .contenedorMain .contenedorMain__div--row .carreteVentas__section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--row .carreteVentas__section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__404 .carreteVentas__section .carreteVentas:hover {
   border-radius: 10%;
 }
 
@@ -11281,6 +11292,10 @@ p {
 .contenedorVentasInd .contenedorVentasInd__div .VentasIndIntro div div .especif table {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+.contenedorVentasInd .contenedorVentasInd__div .VentasIndIntro div div .especif table tr {
+  width: 100%;
 }
 .contenedorVentasInd .contenedorVentasInd__div .VentasIndIntro div p {
   text-align: initial;
@@ -11288,6 +11303,7 @@ p {
 .contenedorVentasInd .contenedorVentasInd__div .VentasIndIntro div iframe {
   margin-left: 4%;
   border-radius: 0.5rem;
+  border: 0.25rem solid #444444;
 }
 
 .bullet {
@@ -11342,13 +11358,17 @@ p {
   grid-area: img3;
 }
 
-.contenedorMain__div, .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__div--row {
+.contenedorMain__div, .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__404 {
   display: flex;
 }
-.contenedorMain__div .contacto--row, .contenedorMain__div--col .contacto--row, .contenedorMain .contenedorMain__div--row .contacto--row, .contenedorMain__404--cover .contenedorMain__div--row .contacto--row {
+.contenedorMain__div .contacto--row, .contenedorMain__div--col .contacto--row, .contenedorMain .contenedorMain__div--row .contacto--row, .contenedorMain__404--cover .contenedorMain__div--row .contacto--row, .contenedorMain__404--cover .contenedorMain__404 .contacto--row {
   display: flex;
-  flex-flow: row;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorMain__div .contacto--row img, .contenedorMain__div--col .contacto--row img, .contenedorMain .contenedorMain__div--row .contacto--row img, .contenedorMain__404--cover .contenedorMain__div--row .contacto--row img, .contenedorMain__404--cover .contenedorMain__404 .contacto--row img {
+  max-width: 100%;
 }
 
 form {
@@ -11361,26 +11381,54 @@ form {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.contenedorMain__div--col .datosContacto {
+.contenedorMain__div--col .contacto--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.contenedorMain__div--col .contacto--row img {
+  max-width: 100%;
+  height: 100%;
+  width: 50vw;
+}
+.contenedorMain__div--col .contacto--row form {
+  max-width: 100%;
+  width: 80%;
+}
+.contenedorMain__div--col .contacto--row form section {
+  max-width: 100%;
+}
+.contenedorMain__div--col .contacto--row form section label {
+  width: 40%;
+}
+.contenedorMain__div--col .contacto--row form section input {
+  max-width: 100%;
+}
+.contenedorMain__div--col .contacto--row .datosContacto {
   background: transparent;
   border-top: none;
   border-left: none;
   border-right: none;
   border-color: brown;
+  max-width: 100%;
+  width: 80%;
 }
-.contenedorMain__div--col select {
+.contenedorMain__div--col .contacto--row select {
   margin-top: 0;
 }
-.contenedorMain__div--col section {
+.contenedorMain__div--col .contacto--row section {
   margin-top: 2%;
 }
-.contenedorMain__div--col section textarea {
+.contenedorMain__div--col .contacto--row section textarea {
+  border-radius: 1rem;
+  width: 80%;
+}
+.contenedorMain__div--col .contacto--row section select {
   border-radius: 1rem;
 }
-.contenedorMain__div--col section select {
-  border-radius: 1rem;
-}
-.contenedorMain__div--col section .checkboxContacto {
+.contenedorMain__div--col .contacto--row section .checkboxContacto {
   margin-top: 2%;
 }
 
@@ -11445,7 +11493,7 @@ form {
 }
 .contenedorAlq .contenedorAlq__div .divAlq__img .img--height {
   height: 500px;
-  padding-right: 20px;
+  margin-right: 1rem;
 }
 .contenedorAlq .contenedorAlq__div .divAlq__img .divAlq__img--col {
   display: flex;
@@ -11457,13 +11505,13 @@ form {
   width: 600px;
 }
 
-.contenedorMain__div .carreteEmp__section, .contenedorMain .contenedorMain__div--row .carreteEmp__section, .contenedorMain__404--cover .contenedorMain__div--row .carreteEmp__section, .contenedorMain__div--col .carreteEmp__section {
+.contenedorMain__div .carreteEmp__section, .contenedorMain .contenedorMain__div--row .carreteEmp__section, .contenedorMain__404--cover .contenedorMain__div--row .carreteEmp__section, .contenedorMain__404--cover .contenedorMain__404 .carreteEmp__section, .contenedorMain__div--col .carreteEmp__section {
   display: flex;
   justify-content: space-around;
   flex-flow: row;
   width: 100%;
 }
-.contenedorMain__div .carreteEmp__section .carreteEmp, .contenedorMain .contenedorMain__div--row .carreteEmp__section .carreteEmp, .contenedorMain__404--cover .contenedorMain__div--row .carreteEmp__section .carreteEmp, .contenedorMain__div--col .carreteEmp__section .carreteEmp {
+.contenedorMain__div .carreteEmp__section .carreteEmp, .contenedorMain .contenedorMain__div--row .carreteEmp__section .carreteEmp, .contenedorMain__404--cover .contenedorMain__div--row .carreteEmp__section .carreteEmp, .contenedorMain__404--cover .contenedorMain__404 .carreteEmp__section .carreteEmp, .contenedorMain__div--col .carreteEmp__section .carreteEmp {
   display: flex;
   justify-content: space-around;
   margin: 1% 2.5% 1% 2.5%;
@@ -11490,6 +11538,11 @@ form {
 }
 .contenedorIndividuales .contenedorIndividuales__div h1, .contenedorIndividuales .contenedorIndividuales__div .h1 {
   justify-content: center;
+}
+.contenedorIndividuales .contenedorIndividuales__div .titulosInt__Individuales {
+  color: #c92525;
+  font-style: italic;
+  text-align: center;
 }
 .contenedorIndividuales .contenedorIndividuales__div .IndividualesIntro {
   display: flex;
@@ -11662,6 +11715,7 @@ form {
 }
 .contenedorIndividuales .contenedorIndividuales__div .IndividualesIntro iframe {
   margin-left: 4%;
+  border: 0.25rem solid #444444;
   border-radius: 0.5rem;
 }
 
@@ -11705,7 +11759,7 @@ form {
   .contenedorAlq .contenedorAlq__div .divAlq__img .img--height {
     height: 300px;
     width: 1000px;
-    padding: 0px;
+    margin-right: 0rem;
     max-width: 100%;
   }
   .contenedorAlq .contenedorAlq__div .divAlq__img .divAlq__img--col {
@@ -11722,17 +11776,24 @@ form {
   }
 }
 @media only screen and (max-width: 768px) {
-  .contenedorMain .contenedorMain__div section, .contenedorMain__404--cover .contenedorMain__div section, .contenedorMain .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__div--row section, .contenedorMain .contenedorMain__div--col section, .contenedorMain__404--cover .contenedorMain__div--col section {
+  .contenedorMain .contenedorMain__div section, .contenedorMain__404--cover .contenedorMain__div section, .contenedorMain .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__div--row section, .contenedorMain__404--cover .contenedorMain__404 section, .contenedorMain .contenedorMain__div--col section, .contenedorMain__404--cover .contenedorMain__div--col section {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
   }
-  .contenedorMain .contenedorMain__div section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas, .contenedorMain .contenedorMain__div--row section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas, .contenedorMain .contenedorMain__div--col section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas {
+  .contenedorMain .contenedorMain__div section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas, .contenedorMain .contenedorMain__div--row section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas, .contenedorMain__404--cover .contenedorMain__404 section .carreteVentas, .contenedorMain .contenedorMain__div--col section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas {
     width: 100%;
     transition: none;
   }
-  .contenedorMain .contenedorMain__div section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas:hover, .contenedorMain .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain .contenedorMain__div--col section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas:hover {
+  .contenedorMain .contenedorMain__div section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas:hover, .contenedorMain .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__404 section .carreteVentas:hover, .contenedorMain .contenedorMain__div--col section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas:hover {
     border-radius: 0;
+  }
+  .contenedorMain .contenedorMain__div .contacto--row, .contenedorMain__404--cover .contenedorMain__div .contacto--row, .contenedorMain .contenedorMain__div--row .contacto--row, .contenedorMain__404--cover .contenedorMain__div--row .contacto--row, .contenedorMain__404--cover .contenedorMain__404 .contacto--row, .contenedorMain .contenedorMain__div--col .contacto--row, .contenedorMain__404--cover .contenedorMain__div--col .contacto--row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
   }
   .contenedorMain .contenedorMain__div--row, .contenedorMain__404--cover .contenedorMain__div--row {
     display: flex;
@@ -11914,10 +11975,10 @@ form {
     padding: 0.1rem 0.3rem;
     margin-top: 0.3rem;
   }
-  .contenedorMain .contenedorMain__div .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain__div--col, .contenedorMain .contenedorMain__div--col .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div--col .contenedorMain__div--col {
+  .contenedorMain .contenedorMain__div .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div .contenedorMain__div--col, .contenedorMain .contenedorMain__div--row .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__404 .contenedorMain__div--col, .contenedorMain .contenedorMain__div--col .contenedorMain__div--col, .contenedorMain__404--cover .contenedorMain__div--col .contenedorMain__div--col {
     max-width: 100%;
   }
-  .contenedorMain .contenedorMain__div .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--row .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--col .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div--col .contenedorMain__div--col form {
+  .contenedorMain .contenedorMain__div .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--row .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div--row .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__404 .contenedorMain__div--col form, .contenedorMain .contenedorMain__div--col .contenedorMain__div--col form, .contenedorMain__404--cover .contenedorMain__div--col .contenedorMain__div--col form {
     max-width: 100%;
   }
   .contenedorMain .contenedorMain__div--row .buscador__column .form-select, .contenedorMain__404--cover .contenedorMain__div--row .buscador__column .form-select {

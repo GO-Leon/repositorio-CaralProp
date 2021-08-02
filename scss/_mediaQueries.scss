@@ -34,7 +34,7 @@
         .img--height {
           height: $alto * 3;
           width: $ancho * 5;
-          padding: 0px;
+          margin-right: 0rem;
           max-width: 100%;
         }
         .divAlq__img--col {
@@ -68,6 +68,13 @@
             border-radius: 0;
           }
         }
+      }
+      .contacto--row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
       }
     }
     .contenedorMain__div--row {
