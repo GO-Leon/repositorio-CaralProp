@@ -26,6 +26,14 @@ $ancho: 200px;
       padding: 1vh 2vw;
       border-radius: 2rem;
       color: whitesmoke;
+      max-width: 100%;
+      text-align: center;
+    }
+    h2 {
+      max-width: 100%;
+    }
+    p {
+      max-width: 100%;
     }
     .btn-secondary {
       background-color: brown;
@@ -51,6 +59,7 @@ $ancho: 200px;
       justify-content: space-between;
       img {
         height: $alto;
+        border-radius: 0.5rem;
       }
       .img--height {
         height: $alto * 5;

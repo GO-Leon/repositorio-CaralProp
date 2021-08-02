@@ -1,0 +1,14 @@
+.contenedorMain__div {
+  .carreteEmp__section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    width: 100%;
+    .carreteEmp {
+      display: flex;
+      justify-content: space-around;
+      margin: 1% 2.5% 1% 2.5%;
+      border-radius: 0.5rem;
+    }
+  }
+}

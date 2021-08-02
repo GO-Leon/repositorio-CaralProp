@@ -45,11 +45,13 @@ h1 {
 }
 
 .car1 {
-  background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-  height: 60vh;
-  min-height: 300px;
+  background-image: url(../Media/interior2.jpg);
+  min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .car2 {
@@ -57,6 +59,9 @@ h1 {
   min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .car3 {
@@ -64,11 +69,17 @@ h1 {
   min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .btn-light {
+  background-color: #f8f9fac7;
+  border-color: #f8f9fac7;
   &:hover {
-    background: gray;
+    background: #808080dc;
+    border-color: #808080dc;
   }
 }
 
@@ -94,24 +105,33 @@ h1 {
 }
 
 .carAlq1 {
-  background-image: url("https://images.unsplash.com/photo-1617978241112-898785df45b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-image: url(https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80);
   min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .carAlq2 {
-  background-image: url("https://images.unsplash.com/photo-1617228065596-389e80530ad5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=759&q=80");
+  background-image: url(https://images.unsplash.com/photo-1613685703237-6628de38ddb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80);
   min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .carAlq3 {
-  background-image: url("https://images.unsplash.com/photo-1617228069096-4638a7ffc906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80");
+  background-image: url(https://images.unsplash.com/photo-1593696140826-c58b021acf8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   min-height: 60vh;
   background-position: center;
   background-size: 100% 100%;
+  p {
+    background: radial-gradient(#00000099, #99999900);
+  }
 }
 
 .carNews1 {
@@ -201,4 +221,17 @@ h1 {
 
 .d-none {
   display: block;
+}
+.carouselAncho--width {
+  width: 70vw;
+  height: 80vh;
+  border-radius: 1rem;
+  .carousel__Individual {
+    height: 80vh;
+    width: 70vw;
+    img {
+      height: 80vh;
+      width: 70vw;
+    }
+  }
 }

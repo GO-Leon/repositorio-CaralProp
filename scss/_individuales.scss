@@ -1,0 +1,200 @@
+.contenedorIndividuales {
+  background-image: url(../Media/BuildingBackground4.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  .contenedorIndividuales__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border: 4px double whitesmoke;
+    border-radius: 25px;
+    padding: 5vh 5vh;
+    margin: 5vh 5vh;
+    h1 {
+      justify-content: center;
+    }
+    .IndividualesIntro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      p {
+        min-width: 100%;
+      }
+      .caracteristicas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        .unidades__Individuales--left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .location {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            .location__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .location__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .unidades {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .unidades__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .unidades__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .bath {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .bath__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .bath__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .aire {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .aire__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .aire__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+        }
+        .unidades__Individuales--right {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .precio {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            .precio__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .precio__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .area {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .area__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .area__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .parking {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .parking__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .parking__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+          .calefaccion {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2%;
+            width: 100%;
+            .calefaccion__img {
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+            .calefaccion__text {
+              display: flex;
+              font-family: "KoHo", sans-serif;
+              font-size: 1rem;
+              margin-left: 5%;
+              width: 100%;
+            }
+          }
+        }
+      }
+      iframe {
+        margin-left: 4%;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+
+.divisor {
+  border-top: solid 2px gray;
+  width: 75vw;
+  margin: 4vh;
+}

@@ -1,3 +1,11 @@
+.contenedorMain__div {
+  display: flex;
+  .contacto--row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
 form {
   padding: 0.2rem;
 }

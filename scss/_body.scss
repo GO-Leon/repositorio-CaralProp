@@ -22,6 +22,10 @@
     h1 {
       margin-bottom: 1%;
     }
+    .div__Car {
+      display: flex;
+      width: 100%;
+    }
   }
   .contenedorMain__div--row {
     @extend .contenedorMain__div;
@@ -78,4 +82,9 @@ p {
 .contenedor__title--padding {
   @extend .contenedor__title;
   padding: 0.5vh 2vw;
+}
+
+.contenedorMain__404--cover {
+  @extend .contenedorMain;
+  height: 87vh;
 }

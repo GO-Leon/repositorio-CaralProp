@@ -5,6 +5,15 @@
     justify-content: space-around;
     flex-flow: row wrap;
   }
+  .precio {
+    border: 3px solid brown;
+    border-radius: 1rem;
+    background-color: brown;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
   .carreteVentas__section {
     display: flex;
     justify-content: space-around;
@@ -36,13 +45,44 @@
     border-radius: 25px;
     padding: 5vh 5vh;
     margin: 5vh 5vh;
+    h1 {
+      justify-content: center;
+    }
     .VentasIndIntro {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-around;
       align-items: center;
-      h1 {
-        justify-content: center;
+      max-width: 100%;
+      div {
+        display: flex;
+        flex-direction: column;
+        div {
+          flex-direction: row;
+          justify-content: space-around;
+          .especif {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: flex-start;
+            h3 {
+              display: flex;
+              justify-content: center;
+              font-size: 1.2rem;
+            }
+            table {
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
+        p {
+          text-align: initial;
+        }
+        iframe {
+          margin-left: 4%;
+          border-radius: 0.5rem;
+        }
       }
     }
   }
@@ -98,17 +138,4 @@
 }
 .img3 {
   grid-area: img3;
-}
-
-.especif {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.especif {
-  h2 {
-    display: flex;
-    align-items: flex-start;
-  }
 }
