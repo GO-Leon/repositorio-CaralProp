@@ -12127,6 +12127,12 @@ form {
     padding: 0.1rem 0.3rem;
     margin-top: 0.7rem;
   }
+
+  .contenedorAlq__div .btn {
+    font-size: 0.58rem;
+    padding: 0.1rem 0.3rem;
+    margin-top: 0.7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
