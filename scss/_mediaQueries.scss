@@ -78,6 +78,18 @@
         justify-content: center;
         align-items: center;
         max-width: 100%;
+        .chatContacto {
+          width: 80%;
+          a {
+            width: 50%;
+          }
+          h3 {
+            width: 80%;
+          }
+        }
+        form {
+          width: 80%;
+        }
       }
     }
     .contenedorMain__div--row {
@@ -99,6 +111,12 @@
           margin-bottom: 0;
         }
       }
+    }
+  }
+  .card-body {
+    padding: 0rem;
+    p {
+      margin-top: 4px;
     }
   }
   .contenedorVentasInd {
@@ -252,6 +270,18 @@
   .breadcrumb-item {
     font-size: 0.8rem;
   }
+  .contenedorMain__div--col {
+    .contacto--row {
+      img {
+        width: 60%;
+      }
+      .chatContacto {
+        h3 {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
 }
 /*Version Mobile*/
 @media only screen and (max-width: 320px) {
@@ -288,11 +318,23 @@
       h1 {
         font-size: 1.2rem;
       }
-      .contenedorMain__div--col {
-        max-width: 100%;
-        form {
-          max-width: 100%;
+    }
+    .contenedorMain__div--col {
+      max-width: 100%;
+      .contacto--row {
+        section {
+          textarea {
+            height: 40vh;
+          }
         }
+        .chatContacto {
+          h3 {
+            font-size: 1rem;
+          }
+        }
+      }
+      form {
+        max-width: 100%;
       }
     }
     .contenedorMain__div--row {
@@ -357,6 +399,35 @@
     display: none;
     .breadcrumb-item {
       display: none;
+    }
+  }
+  .carouselAncho--width {
+    width: 70vw;
+    height: 50vh;
+    border-radius: 1rem;
+    .carousel__Individual {
+      height: 50vh;
+      width: 70vw;
+      img {
+        height: 50vh;
+        width: 70vw;
+      }
+    }
+  }
+  .contenedorIndividuales {
+    .btn {
+      font-size: 0.58rem;
+      padding: 0.1rem 0.3rem;
+      margin-top: 0.7rem;
+    }
+  }
+  .contenedorVentasInd {
+    .contenedorVentasInd__div {
+      .btn {
+        font-size: 0.58rem;
+        padding: 0.1rem 0.3rem;
+        margin-top: 0.7rem;
+      }
     }
   }
 }
