@@ -392,6 +392,7 @@
   }
 
   .carousel-caption {
+    bottom: 0;
     h2 {
       font-size: 0.8rem;
     }
@@ -446,6 +447,9 @@
         max-width: 70vw;
       }
     }
+  }
+  .carouselIndicador {
+    display: none;
   }
   .contenedorIndividuales {
     .btn {
