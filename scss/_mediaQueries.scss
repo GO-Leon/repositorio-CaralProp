@@ -67,6 +67,7 @@
         .carreteVentas {
           width: 100%;
           transition: none;
+          border-radius: 0.5rem;
           &:hover {
             border-radius: 0;
           }

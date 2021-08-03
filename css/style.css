@@ -11812,6 +11812,7 @@ form {
   .contenedorMain .contenedorMain__div section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas, .contenedorMain .contenedorMain__div--row section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas, .contenedorMain__404--cover .contenedorMain__404 section .carreteVentas, .contenedorMain .contenedorMain__div--col section .carreteVentas, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas {
     width: 100%;
     transition: none;
+    border-radius: 0.5rem;
   }
   .contenedorMain .contenedorMain__div section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div section .carreteVentas:hover, .contenedorMain .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--row section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__404 section .carreteVentas:hover, .contenedorMain .contenedorMain__div--col section .carreteVentas:hover, .contenedorMain__404--cover .contenedorMain__div--col section .carreteVentas:hover {
     border-radius: 0;
